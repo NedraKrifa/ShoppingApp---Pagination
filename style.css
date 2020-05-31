@@ -1,0 +1,148 @@
+header{
+    background-color: rgb(81, 119, 150);
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 20%;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo span{
+    font-size: 30px;
+    color: rgb(201, 197, 197);
+}
+#title{
+    font-size: 60px;
+    color: salmon;
+}
+.navbar{
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    list-style: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    color: rgb(201, 197, 197);
+}
+.item:hover{
+    color: salmon;
+    cursor: pointer;
+}
+
+/*animal product*/
+.list{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: repeat(5,250px);
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.product-photo img{
+    width: 200px;
+    height: 200px;
+}
+.product-photo{
+    border: 1px solid rgb(81, 119, 150);
+}
+.product-description{
+    width: 500px;
+}
+.product-description h1{
+    color: rgb(102, 99, 99);
+}
+.product-description h1:hover{
+    color: salmon;
+}
+.product-description span{
+    padding-left: 100px;
+    color: salmon;
+}
+.favori-btn{
+    color: rgb(97, 93, 93);
+}
+.favori-btn:hover{
+    color: salmon;
+    cursor: pointer;
+}
+.favori-btn.toggle{
+    color: salmon;
+}
+.product-item{
+    border: 2px solid rgb(81, 119, 150);
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(81, 119, 150);
+    text-align: center;
+    color: rgb(201, 197, 197);
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 20px;
+    height: 40px;
+}
+
+
+.active {
+    color: salmon;
+    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.75);
+    font-weight: 800 !important;
+    font-size: 20px;
+}
+.inactive-in {
+    background-color: rgb(231, 222, 222) !important;
+    color: rgb(81, 119, 150);
+}
+.inactive-out{
+    background-color: rgb(197, 190, 190) !important;
+    color: rgb(81, 119, 150);
+}
+.btn-list {
+    margin-top: 50px;
+    text-align: center;
+}
+  
+.btn {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(185, 178, 178);
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#btn-none{
+    display: none;
+}
+
+.favori{
+    display: none;/*grid*/
+    width: 100%;
+}
+.home{
+    font-size: 24px;
+    color: rgb(129, 123, 123);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(81, 119, 150);
+    padding: 10px;
+    margin-left: 150px;
+    width: 60%;
+}
+.home:hover{
+    color: salmon;
+    cursor: pointer;
+}
+#remove-btn{
+    color: rgb(97, 93, 93);
+}
+#remove-btn:hover{
+    color: salmon;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <span id='title'>Animal</span>
+                <span>Shop</span>
+            </a>
+        </div>
+        <ul class="navbar">
+            <li class="item">Dog</li>
+            <li class="item">Cat</li>
+            <li class="item">Bird</li>
+            <li class="item">Small Pet</li>
+            <li class="item star-btn"><i class="fas fa-star"></i></li>
+        </ul>
+    </header>
+    <div class="main">
+        <div class="list" id="list"></div>
+		<div class="pagenumbers" id="pagination"></div>
+    </div>
+    <div class="favori">
+        <span class="home">Home</span>
+        <div class="list" id="favori-list"></div>
+    </div>
+    <footer><span>AnimalShop (c)2020</span></footer>
+    <script src="https://kit.fontawesome.com/c05700bcca.js" crossorigin="anonymous"></script>
+    <script src="./data.js"></script>
+    <script src="./pagination.js"></script>
+    <script src="./favori.js"></script>
+    <script src="./removeLi.js"></script>
+    <script src="./displayPages.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
